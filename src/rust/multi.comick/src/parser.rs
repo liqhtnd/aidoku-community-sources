@@ -323,7 +323,7 @@ pub fn parse_manga_details(api_url: String, id: String) -> Result<Manga> {
 		artist,
 		description,
 		url: format!(
-			"https://comick.app/comic/{}",
+			"https://comick.cc/comic/{}",
 			id.split('|').next().unwrap_or("")
 		),
 		categories,
